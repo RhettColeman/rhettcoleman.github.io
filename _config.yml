@@ -20,7 +20,7 @@ timezone:
 
 title: Rhett Coleman # the main title
 
-tagline: My personal blog # it will display as the sub-title
+tagline: My personal blog! # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   blog, technology, github
