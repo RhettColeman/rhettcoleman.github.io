@@ -29,23 +29,23 @@ description: >- # used by seo meta and the atom feed
 url: "https://rhettcoleman.github.io"
 
 github:
-  username: github_username # change to your github username
+  username: rhettcoleman # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+#twitter:
+  #username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Rhett Coleman
+  #email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    #- https://twitter.com/username # change to your twitter homepage
+    - https://github.com/RhettColeman # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/rhettcoleman
 
 google_site_verification: # fill in to your verification string
 
@@ -76,7 +76,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://pbs.twimg.com/profile_images/1676324959088525314/plXhA-Dp_400x400.png
+avatar: assets\lib\ProfilePic.jfif
 
 # boolean type, the global switch for TOC in posts.
 toc: true
