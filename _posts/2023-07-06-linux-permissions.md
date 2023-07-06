@@ -49,7 +49,7 @@ This would set the permissions to `-rwxrw-r--`, granting:
 - Group: read and write permissions
 - Others: read-only permissions
 
-## Breakdown: 
+## Breakdown 
 `chmod 764`
 
 Result: `-rwxrw-r--`
@@ -60,7 +60,7 @@ Result: `-rwxrw-r--`
 | Group | 4    | 2     | 0 | 6 |
 | Other | 4    | 0     | 0 | 4 |
 
-## Another Example: 
+## Another Example 
 `chmod 777` - Grant all access to everyone.
 
 Result: `-rwxrwxrwx`

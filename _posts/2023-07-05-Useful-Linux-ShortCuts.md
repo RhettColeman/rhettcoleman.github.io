@@ -2,7 +2,7 @@
 title: "Basic Useful Linux Shortcuts and Commands"
 date: 2023-07-05 11:00:00 -05:00
 categories: [Linux]
-tags: [Linux,Terminal]
+tags: [linux,terminal]
 pin: true
 math: true
 mermaid: true
