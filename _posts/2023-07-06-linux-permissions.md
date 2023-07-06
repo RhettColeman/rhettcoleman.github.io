@@ -71,3 +71,14 @@ Result: `-rwxrwxrwx`
 | Group | 4    | 2     | 1 | 7 |
 | Other | 4    | 2     | 1 | 7 |
 
+## Another Example 
+`chmod 600` - Grant read and write to owner
+
+Result: `-rw-------`
+
+|  User | Read | + Write | + Execute |= Total |
+|:------|:----:|:-----:|:-------:|:-------:|
+| Owner | 4    | 2     | 0 | 6 |
+| Group | 0    | 0     | 0 | 0 |
+| Other | 0    | 0     | 0 | 0 |
+

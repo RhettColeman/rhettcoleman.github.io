@@ -8,9 +8,10 @@ math: true
 mermaid: true
 ---
 # Use the following in a Linux Terminal
-example:
-> root@linux1:~$ `whoami`
-{: .prompt-info }
+Example
+```bash
+root@linux1:~$ whoami
+```
 
 ## Connection
 ### SSH

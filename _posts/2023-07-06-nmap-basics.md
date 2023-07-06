@@ -40,15 +40,20 @@ The well-known ports range from 0 to 1023 and are assigned by the Internet Assig
 
 ## Manual
 
-```
+```bash
 man namp
 ```
 
 ## Scanning Syntax
 ### Basic Syntax
+```bash
+nmap scantype options target
 ```
-nmap `scan type` `options` `target`
-```
+> `nmap` and `target` are required. `scantype` and `options` are optional.
+{: .prompt-info }
+
+> Not specifying a `scantype` will perform a default scan known as a "vanilla" or `SYN` scan.
+{: .prompt-info }
 
 ### Scan Type
 When port scanning with Nmap, there are four basic scan types.
@@ -64,8 +69,33 @@ Example
 ```
 nmap -sT 10.10.83.119
 ```
+#### More on UDP Scanning
+Due to this difficulty in identifying whether a UDP port is actually open, UDP scans tend to be incredibly slow in comparison to the various TCP scans. For this reason it's usually good practice to run an Nmap scan with --top-ports <number> enabled. 
 
+```
+nmap -sU --top-ports 20 <target>
+```
+
+If a UDP port doesn't respond to an Nmap scan, what will it be marked as `open|filtered`
+
+#### More on ICMP Network Scanning (Mapping)
+When initially connecting to a target network in a black box assignment, our primary objective is to create a network map or diagram that outlines the network's structure. This entails identifying IP addresses that correspond to active hosts and distinguishing them from inactive ones.
+
+One way to do this is by using Nmap to perform a so called "ping sweep".
+
+This is done with `-sn` and the IP address range.
+> IP ranges which can be specified with either a hypen (-) or CIDR notation
+{: .prompt-info }
+```
+nmap -sn 192.168.0.1-254
+```
+```
+nmap -sn 192.168.0.0/24
+```
 ### Options
+
+> Capitalization matters in the Nmap scan syntax.
+{: .prompt-info }
 
 |   Command                   | Description          | Info |
 |:-----------------------------|:-------------------|--------------:|
@@ -82,27 +112,32 @@ Scans can be combined
 nmap -sT -p 1-100 -O -vv 192.168.10.1
 ```
 
-## UDP Scanning
-Due to this difficulty in identifying whether a UDP port is actually open, UDP scans tend to be incredibly slow in comparison to the various TCP scans. For this reason it's usually good practice to run an Nmap scan with --top-ports <number> enabled. 
+## Exporting Results
+Nmap provides various options for exporting scan results to different formats, allowing you to analyze and share the output data more effectively. Here are some methods for exporting scan results.
 
-```
-nmap -sU --top-ports 20 <target>
-```
+|   Command                   | Description          | Info |
+|:-----------------------------|:-------------------|--------------:|
+|-oN | Normal Output  | Save the scan results in a human-readable format|
+|-oG | Grepable Output  | Export the scan results in a greppable format|
+|-oX | XML Output | Save the scan results in XML format|
 
-If a UDP port doesn't respond to an Nmap scan, what will it be marked as `open|filtered`
+> Export syntax can be combined with `scantype` and `option` syntax
+{: .prompt-tip }
 
-## ICMP Network Scanning (Mapping)
-When initially connecting to a target network in a black box assignment, our primary objective is to create a network map or diagram that outlines the network's structure. This entails identifying IP addresses that correspond to active hosts and distinguishing them from inactive ones.
-
-One way to do this is by using Nmap to perform a so called "ping sweep".
-
-This is done with `-sn` and the IP address range.
-> IP ranges which can be specified with either a hypen (-) or CIDR notation
-{: .prompt-info }
+- Normal Output (`-oN`): Using the `-oN` option followed by a filename, you can save the scan results in a human-readable format.
+```bash
+nmap -oN scan_results.txt <target>
 ```
-nmap -sn 192.168.0.1-254
+- Grepable Output (`-oG`):  The `-oG` option allows you to export the scan results in a greppable format. This format is suitable for parsing and further processing with tools like grep.
+```bash
+nmap -oG scan_results.gnmap <target>
 ```
+- XML Output (`-oX`): The `-oX` option enables you to save the scan results in XML format, which is widely supported and can be easily parsed by various tools.
+```bash
+nmap -oX scan_results.xml <target>
 ```
-nmap -sn 192.168.0.0/24
+- Combined Example
+```bash
+nmap -sT -p 8012 -oN scanresults.txt 10.10.165.160
 ```
 
