@@ -1,5 +1,5 @@
 ---
-title: "Basic Useful Linux Shortcuts and Commands"
+title: "Basic Linux Shortcuts and Commands"
 date: 2023-07-05 11:00:00 -05:00
 categories: [Linux]
 tags: [linux,terminal]
@@ -35,7 +35,10 @@ ssh username@MACHINE_IP
 
 |  Command                     | Description        | Syntax |
 |:-----------------------------|:-------------------|--------------:|
-| cd directory| Change directory to named directory    | cd location |
+| cd | Change directory to named directory    | cd /dir1/dir2 |
+| cd .. | Go up a directory    | cd .. |
+| cd / | Go to home directory    | cd / |
+| cd /var/log       | Access system logs    | cd /var/log  |
 | find       | Search for files and directories in a specified location or directory hierarchy    | Below |
 
 find - Search for files and directories in a specified location or directory hierarchy
@@ -53,6 +56,7 @@ find -name filename.txt
 |man ls | Provide the manual for ls   | man ls |
 | ls -a  | List all files and directories, including hidden ones| ls -a  |
 | ls -lh | List files and directories in long format with readable file sizes | ls -lh  |
+| clear | clear all terminal text | clear |
 | cat | Display the contents of a file | cat filename |
 | grep | Search for a pattern in a file | Below |
 
@@ -78,3 +82,19 @@ grep "String to lookup" filename.extension
 |ls -lh  | List files with permissions    | ls -lh |
 
 Learn more about [**Linux permissions**](https://rhettcoleman.github.io/posts/linux-permissions/).
+
+## Terminal Text Editors
+
+|  Command                     | Description           | Syntax |
+|:-----------------------------|:-----------------|------:|
+|nano   | create (new filename) or edit (filename) a file using nano | nano filename |
+|VIM   | create (new filename) or edit (filename) a file using VIM | VIM filename |
+
+## Viewing Processes
+
+|  Command                     | Description           | Syntax |
+|:-----------------------------|:-----------------|------:|
+|ps   | Provide a list of the running processes as our user's session | ps |
+|ps aux   | See system processes and other user tasks | ps aux  |
+|top  | Real-time statistics system processes | ps aux  |
+|kill  | Kill a command with associated PID  | kill 0123  |
