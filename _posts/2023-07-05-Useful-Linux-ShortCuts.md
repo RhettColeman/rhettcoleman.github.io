@@ -12,8 +12,8 @@ example:
 > root@linux1:~$ `whoami`
 {: .prompt-info }
 
-# Connection
-## SSH
+## Connection
+### SSH
 The syntax to use SSH is very simple. We only need to provide two things:
 1. The IP address of the remote machine
 2. Correct credentials to a valid account to login with on the remote machine
@@ -22,7 +22,7 @@ The syntax to use SSH is very simple. We only need to provide two things:
 ssh username@MACHINE_IP
 ```
 
-# Users
+## Users
 
 |  Command                     | Description        | Syntax  |
 |:-----------------------------|:-------------------|--------------:|
@@ -30,8 +30,8 @@ ssh username@MACHINE_IP
 | su | Switch Current User    | su username |
 
 
-# Directories
-## Directory Navigation
+## Directories
+### Directory Navigation
 
 |  Command                     | Description        | Syntax |
 |:-----------------------------|:-------------------|--------------:|
@@ -43,7 +43,7 @@ find - Search for files and directories in a specified location or directory hie
 find -name filename.txt
 ```
 
-## Directory Contents
+### Directory Contents
 
 |  Command                     | Description           | Syntax|
 |:-----------------------------|:-----------------|-:|
@@ -60,7 +60,7 @@ grep - Search for a pattern in a file
 ```bash
 grep "String to lookup" filename.extension
 ```
-## Directory Commands
+### Directory Commands
 
 |  Command                     | Description           | Syntax |
 |:-----------------------------|:-----------------|------:|
@@ -71,10 +71,10 @@ grep "String to lookup" filename.extension
 |rm   | remove     | rm filename |
 |file  | Determine the type of a file  | file filename  |
 
-# Permissions
+## Permissions
 
 |  Command                     | Description           | Syntax |
 |:-----------------------------|:-----------------|------:|
 |ls -lh  | List files with permissions    | ls -lh |
 
-Learn more about Linux permissions here: <http://127.0.0.1:4000>
+Learn more about [**Linux permissions**](https://rhettcoleman.github.io/posts/linux-permissions/).

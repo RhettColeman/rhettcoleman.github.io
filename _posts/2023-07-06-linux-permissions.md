@@ -8,14 +8,14 @@ pin: false
 math: true
 mermaid: true
 ---
-# Context
+## Context
 Linux permissions are a fundamental aspect of the Linux file system that determine who can perform specific actions on files and directories. They serve to protect sensitive data and maintain system security. Linux uses a permission system based on three levels of access: 
 
 - Read (`r`): Allows the user to view the contents of a file or the names of files within a directory.
 - Write (`w`): Grants the user the ability to modify a file or add/remove files within a directory.
 - Execute (`x`): Permits the user to execute a file or traverse (enter) a directory.
 
-#  Permission Display
+##  Permission Display
 Permissions are represented by a series of ten characters displayed when using the `ls -l` command to list files. The first character represents the file type (e.g., - for a regular file, d for a directory), while the next nine characters are divided into three groups of three. 
 
 Each group corresponds to the permissions for the owner, group, and others, respectively.
@@ -32,7 +32,7 @@ In this example, the permissions `-` `rw-` `r--` `r--` indicate the following:
 - The group has read-only permissions (`r--`).
 - Others (all users not in the owner or group) have read-only permissions (`r--`).
 
-#  Modify Permissions
+##  Modify Permissions
 To modify permissions, the `chmod` command is used. It allows you to change the permissions for the owner, group, and others using a numeric or symbolic representation.
 
 Numeric representation:
@@ -65,7 +65,7 @@ Result: `-rwxrw-r--`
 
 Result: `-rwxrwxrwx`
 
-|  User | Read | Write | Execute | Total |
+|  User | Read | + Write | + Execute |= Total |
 |:------|:----:|:-----:|:-------:|:-------:|
 | Owner | 4    | 2     | 1 | 7 |
 | Group | 4    | 2     | 1 | 7 |
