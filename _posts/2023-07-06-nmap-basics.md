@@ -2,8 +2,8 @@
 layout: post
 title: Nmap Basics
 date: '2023-07-06 11:07:28 -0400'
-categories: [Scanning, Nmap]
-tags: [nmap, pentesting, scanning]
+categories: [Tools, Nmap]
+tags: [nmap, pentesting, scanning,tools]
 pin: false
 math: true
 mermaid: true
