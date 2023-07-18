@@ -3,7 +3,7 @@ layout: post
 title: 'Secure in a Year: Week 1 - Use an Authenticator App'
 date: '2023-07-18 15:58:52 -0400'
 categories: [Secure in a Year]
-tags: [secure in a yYear, weekly steps]
+tags: [secure in a year, weekly steps]
 pin: false
 math: true
 mermaid: true
@@ -11,7 +11,7 @@ mermaid: true
 ## What is an Authenticator App?
 The Authenticator app works like a special lock for your online accounts, such as your bank account. When you sign in to your account, the website requires two things to ensure it's really you: your password and your phone. If someone tries to access your account without your phone, they won't be able to do it! The app sends a fast notification to your phone, and all you need to do is tap "Yes" to verify it's you, or type in a few random numbers the app provides. 
 
-> You might be familiar with the process of receiving text messages from accounts to confirm your identity. Well, the Authenticator app operates on a similar idea, but it's even easier and more secure..
+> You might be familiar with the process of receiving text messages from accounts to confirm your identity. Well, the Authenticator app operates on a similar idea, but it's even easier and more secure.
 {: .prompt-info }
 
 It's that simple and secure, adding an extra layer of protection to keep your accounts safe from unauthorized access. With the Authenticator app, you can rest easy knowing your online accounts are well-guarded!
@@ -108,3 +108,11 @@ Congratulations on taking the first step towards enhancing your online security!
 In Week 1, make it a priority to link any accounts associated with your **finances** to the Authenticator App. These accounts are of utmost importance due to their sensitive nature, and safeguarding them is crucial in today's cyber landscape. By dedicating this week to securing your financial accounts, you're creating a robust defense against potential threats.
 
 Throughout the "Secure in a Year" series, we'll continue providing insightful tips and guides on bolstering your online security. Taking control of your digital safety is empowering, and together, we can make the internet a safer place. Stay tuned for more exciting content and let's make this year a truly secure one!
+
+## A Word of Warning
+
+> The Microsoft Authenticator App is linked to your phone for added security.
+{: .prompt-danger }
+
+The Microsoft Authenticator App is linked to your phone for added security. If you ever upgrade to a new phone, it's essential to have your old phone handy to facilitate the transfer of your accounts. Additionally, some websites offer "Recovery Codes" as a precautionary measure in case you lose access to your phone. Remember to keep these codes safe and secure in case you ever need to use them.
+
