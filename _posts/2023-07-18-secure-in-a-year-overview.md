@@ -26,5 +26,5 @@ So, join us in this daring endeavor, as we conquer cyber adversaries, one step a
 
 |  Action Step                      | Week                                |
 |:-----------------------------|:---------------------------------------------|
-|<a target="_blank" href="https://www.amazon.com/CanaKit-Raspberry-4GB-Starter-Kit/dp/B07V5JTMV9/ref=sr_1_6?keywords=cana+kit+Pi+4+4GB+Starter+Kit+-+32GB&amp;sr=8-6&amp;ufe=app_do%253Aamzn1.fos.18630bbb-fcbb-42f8-9767-857e17e03685&_encoding=UTF8&tag=rhettcoleman-20&linkCode=ur2&linkId=67b0ba34748d187ab7d89de7a26ce815&camp=1789&creative=9325">Use an Authenticator App</a> | Week 1  |
+|<a target="_blank" href="https://rhettcoleman.github.io/posts/secure-in-a-year-week-1/">Use an Authenticator App</a> | Week 1  |
 
