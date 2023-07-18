@@ -3,7 +3,7 @@ layout: post
 title: 'Secure in a Year: Protect Yourself from Digital Demise!'
 date: '2023-07-18 15:32:45 -0400'
 categories: [Secure in a Year]
-tags: [secure in a yYear, weekly steps]
+tags: [secure in a year, weekly steps]
 pin: true
 math: true
 mermaid: true
