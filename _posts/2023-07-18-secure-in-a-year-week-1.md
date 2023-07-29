@@ -90,15 +90,15 @@ Step 3: Set up Two-factor authentication (2FA)
 Step 4: Scan the barcode/QR code or copy the key
 ![Desktop View](/images/SIY-Week1-ConnectApp-Image.png){: width="500" height="300" }
 
-| Computer | Phone   |               
+| Phone | Computer   |               
 |:-----------------------------|:-----------------------------|
-| 1. Click Continue |1. Click "Set up on same device" or copy the code|
-| 2. Open the Microsoft Authenticator App on your phone |2. Open the Microsoft Authenticator App on your phone|
-| 3. Click the + symbol | 3. If you copied the code Click the + symbol |
-| 4. Click "Other Account"  | 4. Click "Other Account" |
-| 5. Scan the QR code on your computer | 5. If you copied the code Click "ENTER CODE MANUALLY"|
-| 6. Copy the new code given by Microsoft | 6. Copy the new code given by Microsoft |
-| 7. Go back to Facebook and enter the code | 7. Go back to Facebook and enter the code |
+| 1. Click "Set up on same device" or copy the code| 1. Click Continue |
+| 2. Open the Microsoft Authenticator App on your phone| 2. Open the Microsoft Authenticator App on your phone |
+| 3. If you copied the code Click the + symbol | 3. Click the + symbol | 
+|4. Click "Other Account" |  4. Click "Other Account"  | 
+| 5. If you copied the code Click "ENTER CODE MANUALLY"| 5. Scan the QR code on your computer | 
+|6. Copy the new code given by Microsoft |  6. Copy the new code given by Microsoft | 
+| 7. Go back to Facebook and enter the code | 7. Go back to Facebook and enter the code | 
 
 Congratulations! Your Facebook account is now linked to the Microsoft Authenticator App. Whenever you log in to Facebook in the future, the app will send a notification to your device for quick and secure verification.
 
