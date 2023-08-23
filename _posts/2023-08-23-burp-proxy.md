@@ -8,4 +8,5 @@ pin: false
 math: true
 mermaid: true
 ---
-Test
+## Burp Suite Overview
+Burp Suite is a software tool that helps cybersecurity experts and ethical hackers find security problems in websites and web applications. It works like a detective, looking for weak points that hackers could use to break into a website. It can check for things like secret information leaks, unprotected areas, and places where hackers might try to trick the website into doing something it shouldn't.
