@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Burp Suite
+title: Burp Suite Overall
 date: '2023-08-23 16:20:06 -0400'
 categories: [Tools, Burp Suite]
 tags: [pentesting, web,tools]
@@ -34,6 +34,8 @@ The Dashboard interface is divided into four sections:
 
 - **Event Log**: This section provides insight into Burp Suite's activities, such as starting the Proxy, and offers information about connections made through Burp.
 
-- **Issue Activity**: Exclusive to Burp Pro, this section displays vulnerabilities identified by the automated scanner. In Burp Pro, vulnerabilities are ranked by severity and can be filtered based on the scanner's confidence in their validity.
+- **Issue Activity**: Exclusive to Burp Pro, this section displays vulnerabilities identified by the automated scanner. In Burp Pro, vulnerabilities are ranked by severity and can be filtered based on the scanner's confidence in their validity. Feel free to close out of this panel for more room.
 
 - **Advisory Section**: Offering more details about detected vulnerabilities, including references and suggested fixes, this section is valuable for understanding and addressing security issues. These details can also be exported into a report.
+
+In Burp Suite, the default way to navigate the graphical user interface (GUI) is through the top menu bars. If you want to view multiple tabs separately, you can detach them into separate windows. To do this, go to the "Window" option in the top application menu, then select "Detach." You can later reattach these detached tabs using the same method.
