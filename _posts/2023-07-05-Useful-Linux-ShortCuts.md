@@ -16,8 +16,8 @@ root@linux1:~$ whoami
 ## Connection
 ### SSH
 The syntax to use SSH is very simple. We only need to provide two things:
-1. The IP address of the remote machine
-2. Correct credentials to a valid account to login with on the remote machine
+1. The IP address of the remote machine.
+2. Correct credentials to a valid account to login with on the remote machine.
 
 ```bash
 ssh username@MACHINE_IP
