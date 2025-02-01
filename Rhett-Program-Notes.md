@@ -3,7 +3,7 @@ bundle exec jekyll s
 
 # Push to GitHub
 - git add .
-- git commit - m 'Latest update'
+- git commit -m 'Latest update'
 - git push origin main
 
 # Jekyll Compose
